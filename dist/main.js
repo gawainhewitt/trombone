@@ -91,7 +91,7 @@ let playerArray = [player1, player2, player3, player4, player5, player6];
 
 let seqBuffers = new Array;
 
-let originalTempo = 100;
+let originalTempo = 80;
 Tone.Transport.bpm.value = originalTempo;
 Tone.Transport.loopEnd.value = "8m";
 console.log(`bpm ${Math.round(Tone.Transport.bpm.value)}`);
